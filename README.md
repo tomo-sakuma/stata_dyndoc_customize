@@ -4,13 +4,13 @@ File to customize the html output by dyndoc command.
 
 ## Putting "to the top" button
 
-put below on the top of the file that let Stata read using `dyndoc` command
+put the code below on the top of the file that let Stata read using `dyndoc` command
 
 ```html
 <a id="top"></a>
 ```
 
-and put below on the bottom
+and put the code below on the bottom
 
 ```html
 <div class="sticky">
