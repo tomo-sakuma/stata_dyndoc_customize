@@ -2,7 +2,7 @@
 File to customize the html output by dyndoc command.
 
 
-## To make "to the top" button
+## Putting "to the top" button
 
 put below on the top of the file that let stat read using `dyndoc` command
 
@@ -13,10 +13,30 @@ put below on the top of the file that let stat read using `dyndoc` command
 and put below on the bottom
 
 ```html
-<!—ファイルの最後に置く—>
 <div class="sticky">
 
 [top](#top)
 
 </div>
 ```
+
+## Folding code with syntax highlighting
+
+```html
+<details>
+<summary> <b>Code</b> </summary>
+<pre class="sh_stata">
+
+~~~~
+<<dd_do: noresults>>
+"Stata commands"
+<</dd_do>>
+~~~~
+
+</pre></details>
+```
+
+
+## Equation
+- $equation$ for inline equation.
+- $$equation$$ for display formatting
