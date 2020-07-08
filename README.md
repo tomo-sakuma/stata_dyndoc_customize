@@ -20,7 +20,7 @@ and put the code below on the bottom
 </div>
 ```
 
-## Folding code with syntax highlighting
+## Folding code and syntax highlighting
 
 ```html
 <details>
