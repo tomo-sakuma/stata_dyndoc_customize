@@ -25,24 +25,3 @@ and write the code below on the final line of the file.
 
 </div>
 ```
-
-## Folding code and syntax highlighting
-You can fold the code block (like RMarkdown) using some HTML tags before and after the code block of `dyndoc` command.
-
-```html
-<details>
-<summary> <b>Code</b> </summary>
-<pre class="sh_stata">
-
-~~~~
-<<dd_do: noresults>>
-"Stata commands here"
-<</dd_do>>
-~~~~
-
-</pre></details>
-```
-
-## Equation
-- $equation$ for inline equation.
-- $$equation$$ for display formatting
