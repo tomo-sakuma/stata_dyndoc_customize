@@ -21,6 +21,7 @@ and put the code below on the bottom
 ```
 
 ## Folding code and syntax highlighting
+put some html tags before and after the code brock of dyndoc command.
 
 ```html
 <details>
@@ -29,7 +30,7 @@ and put the code below on the bottom
 
 ~~~~
 <<dd_do: noresults>>
-"Stata commands"
+"Stata commands here"
 <</dd_do>>
 ~~~~
 
