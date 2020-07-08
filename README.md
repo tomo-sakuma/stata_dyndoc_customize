@@ -1,16 +1,22 @@
 # stata_dyndoc_customize
-File to customize the html output by dyndoc command.
+A CSS file to customize the HTML output by `dyndoc` command.
+You can use it by putting the code below on the very top of the file that you want to let Stata read using the `dyndoc` command.
 
+```
+<<dd_include: https://tomo-sakuma.github.io/stata_dyndoc_customize/stata_header.css >>
+
+```
 
 ## Putting "to the top" button
+You can put a "to the top" button that floats and is always at the lower right of the display.
 
-put the code below on the top of the file that you want to let Stata read using `dyndoc` command
+Write the code below on the top  (ex. just under the title)  of the file that you want to let Stata read using `dyndoc` command.
 
 ```html
 <a id="top"></a>
 ```
 
-and put the code below on the bottom
+and write the code below on the bottom
 
 ```html
 <div class="sticky">
@@ -21,7 +27,7 @@ and put the code below on the bottom
 ```
 
 ## Folding code and syntax highlighting
-put some html tags before and after the code brock of dyndoc command.
+put some HTML tags before and after the code brock of `dyndoc` command.
 
 ```html
 <details>
