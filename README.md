@@ -2,7 +2,7 @@
 A CSS file to customize the HTML output by `dyndoc` command.
 You can use it by putting the code below on the very top of the file that you want to let Stata read using the `dyndoc` command.
 
-```
+```stata
 <<dd_include: https://tomo-sakuma.github.io/stata_dyndoc_customize/stata_header.css >>
 
 ```
