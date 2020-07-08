@@ -16,7 +16,7 @@ Write the code below on the top  (ex. just under the title)  of the file that yo
 <a id="top"></a>
 ```
 
-and write the code below on the bottom
+and write the code below on the final line of the file.
 
 ```html
 <div class="sticky">
@@ -27,7 +27,7 @@ and write the code below on the bottom
 ```
 
 ## Folding code and syntax highlighting
-put some HTML tags before and after the code brock of `dyndoc` command.
+You can fold the code block (like RMarkdown) using some HTML tags before and after the code block of `dyndoc` command.
 
 ```html
 <details>
@@ -42,7 +42,6 @@ put some HTML tags before and after the code brock of `dyndoc` command.
 
 </pre></details>
 ```
-
 
 ## Equation
 - $equation$ for inline equation.
