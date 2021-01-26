@@ -205,7 +205,11 @@
 		  font-size: 0.9rem;
 		  font-family: 'Fira Code', monospace;
 		  }
-		
+		  
+		.indent {
+			text-indent: 1em;
+			}
+			
 		.MathJax_CHTML {
 			font-size: 0.93rem !important;
 			}
