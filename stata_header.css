@@ -206,7 +206,7 @@
 		  font-family: 'Fira Code', monospace;
 		  }
 		  
-		.indent {
+		p {
 			text-indent: 1em;
 			}
 			
