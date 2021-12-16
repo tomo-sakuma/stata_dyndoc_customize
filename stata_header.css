@@ -171,7 +171,7 @@
 
 		body {
 		  color: #444;
-		  font-family: 'Public Sans' , 'IBM Plex Sans JP' , 'M PLUS 1p', sans-serif;
+		  font-family: 'Public Sans' , 'IBM Plex Sans JP' , 'M PLUS 1', sans-serif;
 		  font-weight: 300;
 		  margin: 0 auto;
 		  max-width: 58rem;
@@ -185,7 +185,7 @@
 		h4,
 		h5,
 		h6 {
-		  font-family: 'Public Sans', 'IBM Plex Sans JP' , 'M PLUS 1p', sans-serif;
+		  font-family: 'Public Sans', 'IBM Plex Sans JP' , 'M PLUS 1', sans-serif;
 		  }
 
 		h1,
