@@ -232,11 +232,10 @@
 
 <script type="text/x-mathjax-config">
 	MathJax.Hub.Config({
-		tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']]
+		"tex2jax": { inlineMath: [['$','$'], ['\\(','\\)']]
 		},
   		"HTML-CSS": {
   			availableFonts: [], 
-  			preferredFont: null,
   			webFont: "Neo-Euler"
   			},
   		displayAlign: "left",
