@@ -230,7 +230,7 @@
 	MathJax.Hub.Config({
 		tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']]
 		},
-  		 "HTML-CSS": {
+  		 HTML-CSS: {
   		 	availableFonts :[],
   		 	webFont        :"Neo-Euler",
   		 	},
