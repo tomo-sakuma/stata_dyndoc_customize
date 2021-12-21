@@ -226,21 +226,18 @@
 			}
 	</style>
 
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+<script type='text/x-mathjax-config'>
+MathJax.Hub.Config({
+  "tex2jax": {
+    inlineMath: [['$','$'], ['\\(','\\)']]
+  },
+  "HTML-CSS": {
+    availableFonts: [],
+    webFont: "Neo-Euler",
+  }
+});
 </script>
 
-<script type="text/x-mathjax-config">
-	MathJax.Hub.Config({
-		"tex2jax": { inlineMath: [['$','$'], ['\\(','\\)']]
-		},
-  		"HTML-CSS": {
-  			availableFonts: [], 
-  			webFont: "Neo-Euler"
-  			},
-  		displayAlign: "left",
-  		displayIndent: "2em"
-	});
-</script>
+<script type='text/javascript' src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML%2CSafe.js&#038;ver=3.8'></script>
 
 </head>
