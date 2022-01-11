@@ -86,13 +86,13 @@
 
 		@media screen and (min-width: 32rem) and (max-width: 48rem) {
 		  html {
-			font-size: 13px;
+			font-size: 14px;
 			}
 		}
 
 		@media screen and (min-width: 48rem) {
 		  html {
-			font-size: 18px;
+			font-size: 20px;
 			}
 		}
 
