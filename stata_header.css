@@ -2,7 +2,8 @@
 	<meta http-equiv="content-type" charset="utf-8">
 	<style type="text/css">
 		@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,700;1,300;1,700&family=M+PLUS+1:wght@300;700&family=Public+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');    
- 
+	 <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+
 		@media print {
 		  *,
 		  *:before,
@@ -160,7 +161,7 @@
 
 		body {
 		  color: #444;
-		  font-family: 'Public Sans' , 'M PLUS 1', sans-serif;
+		  font-family: 'Jost','Public Sans' , 'M PLUS 1', sans-serif;
 		  font-weight: 300;
 		  margin: 0 auto;
 		  max-width: 60rem;
@@ -174,7 +175,7 @@
 		h4,
 		h5,
 		h6 {
-		  font-family: 'Public Sans' , 'M PLUS 1', sans-serif;
+		  font-family: 'Jost','Public Sans' , 'M PLUS 1', sans-serif;
 		  }
 
 		h1,
