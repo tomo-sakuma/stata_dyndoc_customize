@@ -221,7 +221,7 @@
 		.sticky {
 			position: -webkit-sticky;
 			position: sticky;
-		    font-size: clamp(14px, 1vw, 24px);
+		    font-size: 14px;
 			float: right;
 			}
 			
