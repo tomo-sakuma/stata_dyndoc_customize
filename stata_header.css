@@ -66,6 +66,7 @@
 		pre {
 		  padding: .5rem;
 		  line-height: 1.25;
+		  overflow-x: scroll;
 		  }
 
 		a,
@@ -162,7 +163,7 @@
 		  font-family: 'Jost','Public Sans' , 'M PLUS 1', sans-serif;
 		  font-weight: 300;
 		  margin: 0 auto;
-		  max-width: 70rem;
+		  max-width: 65rem;
 		  line-height: 1.5;
 		  padding: .25rem;
 		  }
