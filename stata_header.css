@@ -70,7 +70,7 @@
 		body {
 		  color: #444;
 		  font-family: 'Jost', 'M PLUS 1', sans-serif;
-		  font-size: clamp(16px, 1vw, 24px);
+		  font-size: 3vw;
 		  font-weight: 300;
 		  margin: 0 auto;
 		  max-width: 70rem;
