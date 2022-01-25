@@ -80,7 +80,7 @@
 		  }
 
 		html {
-		  font-size: clamp(12px, 1vw, 24px);
+		  font-size: clamp(14px, 1vw, 24px);
 		  }
 
 		@media screen and (min-width: 32rem) and (max-width: 48rem) {
@@ -91,7 +91,7 @@
 
 		@media screen and (min-width: 48rem) {
 		  html {
-			font-size: clamp(12px, 1vw, 24px);
+			font-size: clamp(14px, 1vw, 24px);
 			}
 		}
 
