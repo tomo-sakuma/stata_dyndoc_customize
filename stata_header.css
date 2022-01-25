@@ -3,9 +3,27 @@
 	<style type="text/css">
 		@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,700;1,300;1,700&family=Jost:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=M+PLUS+1:wght@300;700&display=swap');
 
+
+		@media print {
+		  *,
+		  *:before,
+		  *:after {
+			background: transparent !important;
+			color: #000 !important;
+			box-shadow: none !important;
+			text-shadow: none !important;
+			 }
+			 
 		body {
-		  line-height: 1.85;
+		  color: #444;
+		  font-family: 'Jost', 'M PLUS 1', sans-serif;
+		  font-size: 12px;
+		  font-weight: 300;
+		  margin: 0 auto;
+		  max-width: 70rem;
+		  line-height: 1.5;
 		  }
+
 
 		p{
 		  margin-bottom: 1.3rem;
@@ -62,20 +80,6 @@
 		  max-width: 100%;
 		  }
 
-		html {
-		  font-size: clamp(16px, 1vw, 24px);
-		  max-width: 100%;
-		  }
-
-		body {
-		  color: #444;
-		  font-family: 'Jost', 'M PLUS 1', sans-serif;
-		  font-size: 3vw;
-		  font-weight: 300;
-		  margin: 0 auto;
-		  max-width: 70rem;
-		  line-height: 1.5;
-		  }
 
 		h1,
 		h2,
@@ -100,7 +104,7 @@
 		  }
 		
 		table {
-			font-size: 0.88rem;
+			font-size: 0.8rem;
 			}
 		
 		caption {
@@ -110,7 +114,7 @@
 		pre,
 		code {
 		  background-color: #f6f9fc;
-		  font-size: 0.85rem;
+		  font-size: 0.8rem;
 		  font-family: 'JetBrains Mono', monospace;
 		  }
 		  
@@ -119,11 +123,11 @@
 			}
 			
 		.MathJax_CHTML {
-			font-size: 0.85rem !important;
+			font-size: 0.7rem !important;
 			}
 		
 		.MathJax {
-			font-size: 0.85rem !important;
+			font-size: 0.7rem !important;
 			}
 							
 		.sticky {
@@ -132,16 +136,7 @@
 		    font-size: 14px;
 			float: right;
 			}
-		@media print {
-		  *,
-		  *:before,
-		  *:after {
-			background: transparent !important;
-			color: #000 !important;
-			box-shadow: none !important;
-			text-shadow: none !important;
-			 }
-
+			
 		  a,
 		  a:visited {
 			text-decoration: underline;
@@ -212,12 +207,130 @@
 		  font-size: clamp(16px, 1vw, 28px);
 		  }
 
-	@media only screen and (min-width: 480px) {
-	body{font-size: clamp(16px, 1vw, 28px);}
-	}
+	@media screen {		
+		body {
+		  color: #444;
+		  font-family: 'Jost', 'M PLUS 1', sans-serif;
+		  font-size: clamp(16px, 0.7vw, 28px);
+		  font-weight: 300;
+		  margin: 0 auto;
+		  max-width: 65rem;
+		  line-height: 1.5;
+		  }
 
-	@media only screen and (min-width: 768px) {
-	body{font-size: clamp(16px, 1vw, 28px);}
+		h1,
+		h2,
+		h3,
+		h4 {
+		  margin: 1rem 0 .5rem;
+		  font-weight: inherit;
+		  line-height: 1.42;
+		  }
+
+		h1{
+		  margin-top: 0;
+		  font-size: 2rem;
+		  font-weight:bold;
+		  }
+
+		h2 {
+		  font-size: 1.5rem;
+		  font-weight:bolder;
+		  }
+
+		h3 {
+		  font-size: 1.2rem;
+		  font-weight:bolder;
+		  }
+
+		h4 {
+		  font-size: 1rem;
+		  }
+
+		h5 {
+		  font-size: .8rem;
+		  }
+
+		h6 {
+		  font-size: .8rem;
+		  }
+
+		small{
+		  font-size: .707em;
+		  }
+
+		img,
+		canvas,
+		iframe,
+		video,
+		svg,
+		select,
+		textarea {
+		  max-width: 100%;
+		  }
+
+		html {
+		  font-size: clamp(16px, 1vw, 28px);
+		  max-width: 100%;
+		  }
+
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+		  font-family: 'Jost' , 'M PLUS 1', sans-serif;
+		  }
+
+		h1,
+		h2,
+		h3 {
+		  border-bottom: 2px solid #fafafa;
+		  margin-bottom: 1.15rem;
+		  text-align: center;
+		  }
+
+		blockquote {
+		  border-left: 8px solid #fafafa;
+		  padding: 1rem;
+		  }
+		
+		table {
+			font-size: 0.88rem;
+			}
+		
+		caption {
+			font-size: 1.2rem;
+			}
+		
+		pre,
+		code {
+		  background-color: #f6f9fc;
+		  font-size: 0.9rem;
+		  font-family: 'JetBrains Mono', monospace;
+		  }
+		  
+		p {
+			text-indent: 1rem;
+			}
+			
+		.MathJax_CHTML {
+			font-size: 0.88rem !important;
+			}
+		
+		.MathJax {
+			font-size: 0.88rem !important;
+			}
+							
+		.sticky {
+			position: -webkit-sticky;
+			position: sticky;
+		    font-size: 14px;
+			float: right;
+			}
+
 	}
 
 
