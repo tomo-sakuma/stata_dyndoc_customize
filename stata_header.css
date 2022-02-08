@@ -215,7 +215,7 @@
 		  font-size: clamp(16px, 0.7vw, 28px);
 		  font-weight: 300;
 		  margin: 0 auto;
-		  max-width: 65rem;
+		  max-width: 62rem;
 		  line-height: 1.5;
 		  }
 
@@ -227,12 +227,12 @@
 
 		h2 {
 		  font-size: 1.5rem;
-		  font-weight:bolder;
+		  font-weight:bold;
 		  }
 
 		h3 {
 		  font-size: 1.2rem;
-		  font-weight:bolder;
+		  font-weight:bold;
 		  }
 
 		h4 {
@@ -263,7 +263,7 @@
 
 		html {
 		  max-width: 100%;
-		  font-weight: 300;
+		  font-weight: 300 !important;
 		  font-size: clamp(16px, 0.7vw, 28px);
 		  }
 
@@ -292,6 +292,8 @@
 		
 		table {
 			font-size: 0.88rem;
+			font-weight: 300 !important;
+			font-family: 'JetBrains Mono', monospace;
 			}
 		
 		caption {
