@@ -235,7 +235,7 @@
 		  font-family: 'Jost', 'M PLUS 1', sans-serif;
 		  font-size: clamp(16px, 0.7vw, 28px);
 		  font-weight: 300;
-		  margin: 0 auto;
+		  margin:  auto;
 		  max-width: 980px;
 		  line-height: 1.5;
 		  }
@@ -350,13 +350,13 @@
 	}
 
 
-	@media screen and (min-width: 1280px) and (orientation: landscape)  {
+	@media screen and (min-width: 85rem) and (orientation: landscape)  {
     .toc {
         position: fixed;
         margin: 0 auto;
         top: 1rem;
         left: 0px;
-        width: 320px;
+        width: 280px;
         font-size: 0.85rem;
         white-space:normal;
         overflow: scroll;
