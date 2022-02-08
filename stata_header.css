@@ -263,6 +263,8 @@
 
 		html {
 		  max-width: 100%;
+		  font-weight: 300;
+		  font-size: clamp(16px, 0.7vw, 28px);
 		  }
 
 
