@@ -3,6 +3,8 @@
 	<style type="text/css">
 		@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,700;1,300;1,700&family=Jost:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=M+PLUS+1:wght@300;700&display=swap');
 
+	
+
 	@media screen and (max-width: 999px)  {		
 		body {
 		  color: #444;
@@ -201,6 +203,8 @@
 	.menu h2 {
 		margin:0;
 		padding:10px 0;
+		font-weight:bold;
+
 		}
 }
 
@@ -310,6 +314,38 @@
 		    font-size: 14px;
 			float: right;
 			}
+
+		/***追従するトップへ戻るボタン***/
+		#page-top {
+		    position: fixed;
+		    right: 5px;
+		    bottom: 20px;
+		    height: 50px;
+		    text-decoration: none;
+		    font-weight: bold;
+		    transform: rotate(90deg);
+		    font-size: 90%;
+		    line-height: 1.5rem;
+		    color: #737373;
+		    padding: 0 0 0 35px;
+		    border-top: solid 1px;
+		}
+		#page-top::before {
+		    content: "";
+		    display: block;
+		    position: absolute;
+		    top: -1px;
+		    left: 0px;
+		    width: 15px;
+		    border-top: solid 1px;
+		    transform: rotate(35deg);
+		    transform-origin: left top;
+		}
+		/***トップへ戻るボタンここまで***/
+		
+			}
+
+
 
 	}
 
