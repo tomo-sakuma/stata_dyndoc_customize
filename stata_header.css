@@ -9,7 +9,7 @@
 		body {
 		  color: #444;
 		  font-family: 'Jost', 'M PLUS 1', sans-serif;
-		  font-size: clamp(16px, 0.7vw, 28px);
+		  font-size: clamp(14px, 0.5vw, 28px);
 		  font-weight: 300;
 		  width: 80%;
 		  line-height: 1.5;
@@ -161,7 +161,7 @@
 	body {
 		  color: #444;
 		  font-family: 'Jost', 'M PLUS 1', sans-serif;
-		  font-size: clamp(16px, 0.7vw, 28px);
+		  font-size: clamp(16px, 0.5vw, 28px);
 		  font-weight: 300;
 		  width: 70%;
 		  margin-left: 250px;
@@ -181,7 +181,7 @@
         white-space:normal;
         overflow: scroll;
         height: 100%;
-        font-size: 0.85rem;
+        font-size: 14px;
         min-width: 200px;
         z-index: 1;
 
