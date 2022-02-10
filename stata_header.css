@@ -195,10 +195,10 @@
 	   padding-left: 1em; 
 	   }
 	.menu a {
-		color:#333 ;
+		color:#004400 ;
 		}
 	.menu a:hover {
-		color: #003333;
+		color: #003300;
 		}
 	.menu h2 {
 		margin:0;
@@ -283,6 +283,11 @@
 			font-size: 0.88rem;
 			font-weight: 300 !important;
 			font-family: 'JetBrains Mono', monospace;
+			width: 70%;
+        	overflow-x: scroll;
+        	display: block;
+        	-webkit-overflow-scrolling: touch;
+        	margin:auto;
 			}
 		
 		caption {
@@ -487,7 +492,7 @@
 		  a,
 		  a:visited {
 			text-decoration: underline;
-			color: #003333;
+			color: #006600;
 			}
 
 		  a[href]:after {
@@ -542,13 +547,13 @@
 
 		a,
 		a:visited {
-		  color: #3498db;
+		  color: #006600;
 		  }
 
 		a:hover,
 		a:focus,
 		a:active {
-		  color: #2980b9;
+		  color: #003300;
 		  }
 
 		html {
