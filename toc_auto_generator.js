@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 	var target_toc_id = 'toc';
-	var target_headline = 'h3';
+	var target_headline = 'h2';
 	var toc_contents = document.getElementById( target_toc_id );
 	var matches = document.querySelectorAll( target_headline );
 	var ul = document.createElement('ul');
