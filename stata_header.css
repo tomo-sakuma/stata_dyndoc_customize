@@ -9,7 +9,7 @@
 		body {
 		  color: #444;
 		  font-family: 'Jost', 'M PLUS 1', sans-serif;
-		  font-size: clamp(14px, 0.5vw, 28px);
+		  font-size: clamp(15px, 0.5vw, 28px);
 		  font-weight: 300;
 		  width: 80%;
 		  line-height: 1.5;
