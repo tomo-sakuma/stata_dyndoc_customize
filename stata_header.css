@@ -6,10 +6,11 @@
 	
 
 	@media screen and (max-width: 999px)  {		
+		
 		body {
 		  color: #444;
 		  font-family: 'Jost', 'M PLUS 1', sans-serif;
-		  font-size: clamp(15px, 0.5vw, 28px);
+		  font-size: clamp(15px, 1vw, 22px);
 		  font-weight: 300;
 		  width: 80%;
 		  line-height: 1.5;
@@ -57,6 +58,7 @@
 		select,
 		textarea {
 		  max-width: 100%;
+		  margin:  auto;
 		  }
 
 		html {
@@ -161,10 +163,10 @@
 	body {
 		  color: #444;
 		  font-family: 'Jost', 'M PLUS 1', sans-serif;
-		  font-size: clamp(16px, 0.5vw, 28px);
+		  font-size: clamp(16px, 1vw, 22px);
 		  font-weight: 300;
 		  width: 70%;
-		  margin-left: 250px;
+		  margin-left: 260px;
 		  float: left;
 		  line-height: 1.5;
 		  }
@@ -181,8 +183,8 @@
         white-space:normal;
         overflow: scroll;
         height: 100%;
-        font-size: 14px;
-        min-width: 200px;
+        font-size: 15px;
+        min-width: 220px;
         z-index: 1;
 
 	    }
@@ -248,12 +250,13 @@
 		select,
 		textarea {
 		  max-width: 100%;
+		  margin:  auto;
 		  }
 
 		html {
 		  max-width: 100%;
 		  font-weight: 300 !important;
-		  font-size: clamp(16px, 0.7vw, 28px);
+		  font-size: clamp(16px, 1vw, 22px);
 		  }
 
 
@@ -329,7 +332,7 @@
 		    text-decoration: none;
 		    font-weight: bold;
 		    transform: rotate(90deg);
-		    font-size: 90%;
+		    font-size: 16px;
 		    line-height: 1.5rem;
 		    color: #737373;
 		    padding: 0 0 0 35px;
@@ -573,5 +576,6 @@ MathJax.Hub.Config({
 
 <script type='text/javascript' src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML%2CSafe.js&#038;ver=3.8'></script>
 
+<script type="text/javascript" src='http://haghish.com/statax/Statax.js'></script>
 
 </head>
