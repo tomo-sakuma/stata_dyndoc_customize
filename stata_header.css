@@ -62,9 +62,10 @@
 		  }
 
 		html {
-		  max-width: 80%;
-		  font-weight: 300 !important;
-		  overflow-x: scroll;
+			font-size: clamp(15px, 1vw, 22px);
+			max-width: 80%;
+			font-weight: 300 !important;
+			overflow-x: scroll;
 		  }
 
 
@@ -91,7 +92,7 @@
 		  }
 		
 		table {
-			font-size: 0.88rem;
+			font-size: clamp(15px, 1vw, 22px);
 			font-weight: 300 !important;
 			font-family: 'JetBrains Mono', monospace;
 			overflow-x: scroll;
