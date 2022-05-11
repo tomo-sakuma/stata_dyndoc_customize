@@ -92,7 +92,7 @@
 		  }
 		
 		table {
-			font-size: clamp(15px, 1vw, 22px);
+			font-size: clamp(14px, 1vw, 20px);
 			font-weight: 300 !important;
 			font-family: 'JetBrains Mono', monospace;
 			overflow-x: scroll;
